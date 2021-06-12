@@ -138,5 +138,81 @@ Especifica el lenguaje del archivo
  ```
  si nesecitamos guardar algun valor en la etiqueta html podemos usar data-algunnombre
  ```http
-  <p data-ejemplo='alguna informacion que quisieramos consologuear ' ></p>
+  data-ejemplo='alguna informacion que quisieramos consologuear '
  ```
+   para mandar al usuario a una nueva ruta sin que pierda nuestra pagina unamos 
+ ```http
+  target='_blank'
+ ```
+  si queremos que el usuario pueda descargar al go desde nuestra pagina usamos
+  ```http
+  download=''
+ ```
+ le podemos dar un poco de estilo desde html mira esto
+ ```http
+  type='circle'
+ ```
+ ## Enlaces
+   si queremos mmovernos en la web nesecitamos enlaces aqui hay uno
+  ```http
+   <a href=''></a>
+ ```
+ ## Navegacion con anclas
+   si queremos navegar por nuestra pagina y que nos lleve a algun post podemos usar
+  ```http
+   <a href='#nombredelIdDelTag'></a>
+ ```
+ ## Listas
+   ul se utiliza cuando el orden de los elementos no influyen
+ ```http
+  <ul>
+ ``` 
+   ol se utiliza cuando el orden de los elementos es importante
+ ```http
+  <ol>
+ ```
+    dl se utiliza para hacer una lista de definiciones
+ ```http
+  <dl>
+     <dt>title
+      <dd>content
+ ```
+ ## introduccion a las tablas
+     la etiqueta que encierra la taabla
+ ```http
+  <table>
+ ```
+   la etiqueta que construye la fila
+  ```http
+  <tr>
+ ```
+   la etiqueta que construye una celda las columnas de nuestra tabla
+  ```http
+  <td>
+ ```
+  los titulos de las tablas se  establesen con el tag caption
+   ```http
+  <caption>
+ ```
+  las cabeceras de las tablas se establesen con la etiqueta thead y establece grupos dentro de la tabla 
+ ```http
+  <thead>
+ ```
+ si tenemos thead tenemos que tener un tbody rodeado nuestra tabla
+```http
+  <tbody>
+ ```
+ para establecer un pie de tabla usamos
+ ```http
+  <tfoot>
+ ```
+ ## Atributos de las tablas
+   para hacer que las celdas ocupen mas de una fila valor por defecto 1
+   ```http
+  rowspan=''
+ ```
+  para hacer que una celda ocupe mas de una coumna valor por defecto 1
+ ```http
+  colspan=''
+ ```
+   
