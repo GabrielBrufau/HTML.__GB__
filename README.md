@@ -195,7 +195,7 @@ Especifica el lenguaje del archivo
      <dt>title
       <dd>content
  ```
- ## introduccion a las tablas
+ # Introduccion a las tablas
      la etiqueta que encierra la taabla
  ```http
   <table>
