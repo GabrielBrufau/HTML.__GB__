@@ -130,6 +130,10 @@ Especifica el lenguaje del archivo
   <sub>
  ```
  ## atributos
+   la relacion entre el documento que vamos a coger y el documento
+   ```http
+  rel=''
+ ```
    para dar estilo atraves de css podemos usar 
  ```http
   class=''
