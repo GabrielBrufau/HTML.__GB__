@@ -1,5 +1,5 @@
 # HTML.__GB__
-&lt;i> tag
+
 ## Elementos de bloque
 
 Para representar que estamos siguiendo el estandar html 5
