@@ -130,7 +130,13 @@ Especifica el lenguaje del archivo
  ```http
   <sub>
  ```
- ## atributos
+ # Atributos
+   ## Estos proveen informacion adicional sobre un elemento o etiqueta a la vez que lo modifican 
+   
+ alinear al centro 
+   ```bash
+   align="center"
+   ```
    la relacion entre el documento que vamos a coger y el documento
    ```http
   rel=''
