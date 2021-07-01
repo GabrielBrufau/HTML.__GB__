@@ -174,6 +174,9 @@ Especifica el lenguaje del archivo
  ```http
   type='circle'
  ```
+   desplegar una alerta cuando un puntero este sobre un div
+   onMouseOver="example()"
+   
   para decirle al navegador a que categoria pertenece algo un input o lo que sea usamos
   ```http
   name=''
